@@ -1,0 +1,6 @@
+architecture: "unet"      # Options: "unet", "segformer"
+backbone: "resnet34"      # Use "resnet34" for Unet or "mit_b0" for SegFormer
+encoder_weights: "imagenet" 
+decoder_use_batchnorm: True
+decoder_channels: [256, 128, 64, 32, 16]
+in_channels: 3

@@ -1,0 +1,29 @@
+experiment_name: "landvisor_baseline_v1"
+
+data:
+  DATA_ROOT : "data/raw"
+  train_images: "data/train/images"
+  train_masks: "data/train/masks"
+  val_images: "data/val/images"
+  val_masks: "data/val/masks"
+  test_images: "data/test/images"
+  test_masks: "data/test/masks"
+  reference_path: "data/reference_gold.jpg"
+  image_size: [512, 512]
+  points_per_class: 200
+  num_classes: 7
+  class_names: ["Urban", "Agriculture", "Range", "Forest", "Water", "Barren", "Unknown"]
+
+training:
+  batch_size: 16
+  epochs: 10
+  learning_rate: 1e-4  #0.0001
+  gamma: 2.0
+  consistency_weight: 0.1
+  ema_alpha: 0.99
+  device: "cuda" # or "cpu"
+  optimizer: "Adam"
+
+evaluation:
+  model_path: "landvisor_final_model.pth"
+  reference_img: "data/reference_gold.jpg"
