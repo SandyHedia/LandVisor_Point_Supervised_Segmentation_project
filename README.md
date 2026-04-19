@@ -51,7 +51,7 @@ In real-world scenarios, dense segmentation labels are expensive.
 We use the DeepGlobe Land Cover Dataset.
 
 * High-resolution satellite imagery
-* 6 land cover classes:
+* 7 land cover classes:
 
   * Urban
   * Agriculture
