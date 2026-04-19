@@ -59,6 +59,7 @@ We use the DeepGlobe Land Cover Dataset.
   * Forest
   * Water
   * Barren
+  * unknown
 
 ---
 
