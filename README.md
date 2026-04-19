@@ -10,7 +10,7 @@
 
 This project tackles **semantic segmentation under weak supervision** using sparse point annotations instead of full pixel-wise labels.
 
-We implement a **Partial Cross Entropy Loss** that enables training segmentation models using only a small subset of labeled pixels.
+I implement a **Partial Cross Entropy Loss** that enables training segmentation models using only a small subset of labeled pixels.
 
 Labeling satellite imagery at the pixel level is prohibitively expensive. This project implements a **Point-Supervised Semi-Supervised Learning (SSL)** framework to perform semantic segmentation with extreme label scarcity. 
 
@@ -48,7 +48,7 @@ In real-world scenarios, dense segmentation labels are expensive.
 
 ## 📊 Dataset
 
-We use the DeepGlobe Land Cover Dataset.
+I use the DeepGlobe Land Cover Dataset.
 
 * High-resolution satellite imagery
 * 7 land cover classes:
@@ -213,5 +213,5 @@ This project reflects real-world challenges:
 
 **Sandy Hedia**
 
-Machine Learning Engineer (Computer Vision & NLP)
+AI Engineer (Computer Vision & NLP)
 
