@@ -10,7 +10,7 @@ def evaluate():
     with open("configs/base_config.yaml", "r") as f:
         base_cfg = yaml.safe_load(f)
 
-    with open("configs/model/unet_resnet34.yaml", "r") as f:
+    with open("configs/model/model_config.yaml", "r") as f:
         model_cfg = yaml.safe_load(f)
 
     config = base_cfg
